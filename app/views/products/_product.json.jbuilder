@@ -6,3 +6,4 @@ json.description product.description
 json.created_at product.friendly_created_at
 json.product_discounted product.is_discounted?
 json.tax product.tax
+jsob.suppler product.supplier

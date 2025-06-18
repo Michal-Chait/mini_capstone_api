@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   # get "/all_products" => "products#all_products"
   # get "/product/:id" => "products#show"
   post "/users" => "users#create"
+  post "/sessions" => "sessions#create"
+  delete "/sessions" => "sessions#destroy"
 
   get "/products" => "products#index"
   get "/products/:id" => "products#show"

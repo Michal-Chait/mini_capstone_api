@@ -18,6 +18,8 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 gem "seed_dump"
+
+gem "rack-cors"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -57,3 +59,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+  # Use ActiveModel has_secure_password
+  gem "bcrypt", "~> 3.1.7"
